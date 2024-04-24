@@ -1,0 +1,128 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <h1>MOBILE STORE</h1>
+
+     <div class="container">
+        <div class="cart1">
+            <p><span>brand:</span> Samsung</p>
+            <p><span>Model:</span> S20</p>
+            <p><span>RAM:</span> 8</p>
+            <p><span>ROM:</span> 256</p>
+            <p><span>Camera:</span> 20 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn" onclick="addcart() , Samsung()">Add to Cart</button>
+        </div>
+        <div class="cart2">
+            <p><span>brand:</span> Xiomi</p>
+            <p><span>Model:</span> note 10</p>
+            <p><span>RAM:</span> 4</p>
+            <p><span>ROM:</span> 64</p>
+            <p><span>Camera:</span> 10 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn" onclick="addcart()">Add to Cart</button>
+        </div>
+        <div class="cart3">
+            <p><span>brand:</span> Infinix</p>
+            <p><span>Model:</span> z10</p>
+            <p><span>RAM:</span> 16</p>
+            <p><span>ROM:</span> 16</p>
+            <p><span>Camera:</span> 5 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="cart4">
+            <p><span>brand:</span> Tecno</p>
+            <p><span>Model:</span> spark10</p>
+            <p><span>RAM:</span> 12</p>
+            <p><span>ROM:</span> 512</p>
+            <p><span>Camera:</span> 25 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="cart5">
+            <p><span>brand:</span> Iphone</p>
+            <p><span>Model:</span> 14</p>
+            <p><span>RAM:</span> 4</p>
+            <p><span>ROM:</span> 1024</p>
+            <p><span>Camera:</span> 30 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="cart6">
+            <p><span>brand:</span> Oppo</p>
+            <p><span>Model:</span> Sf11</p>
+            <p><span>RAM:</span> 8</p>
+            <p><span>ROM:</span> 256</p>
+            <p><span>Camera:</span> 20 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="cart7">
+            <p><span>brand:</span> Vivo</p>
+            <p><span>Model:</span> y20</p>
+            <p><span>RAM:</span> 8</p>
+            <p><span>ROM:</span> 64</p>
+            <p><span>Camera:</span> 20 megapixel</p>
+            <p><span>Price: </span>15000</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="cart8">
+            <p><span>brand:</span> Hasnain</p>
+            <p><span>Model:</span> s50</p>
+            <p><span>RAM:</span> 8</p>
+            <p><span>ROM:</span> 256</p>
+            <p><span>Camera:</span> 20 megapixel</p>
+            <p><span>Price: </span>300000</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+     </div>
+     <div class="Checkout">
+        <button class="Checkout-btn" onclick="checkout()" >Checkout</button>
+     </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="nextapp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="bg-100 text-white bg-black">
+    <h1 class="text-center text-4xl text-[#38bdf8] mt-5 font-bold">MOBILE STORE</h1>
+
+    <div class="containers flex justify-evenly flex-wrap mt-[3rem] gap-[20px] m-[50px]">
+    </div>
+
+   <div class="text-center m-[5rem]">
+    <button onclick="goToCart()" class="bg-[#38bdf8] rounded-md px-6 py-3 text-white mt-4 hover:bg-[#00a4ec]">Checkout</button>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
